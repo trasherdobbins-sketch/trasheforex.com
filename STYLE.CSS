@@ -138,3 +138,17 @@ footer {
         margin: 0 7px;
     }
 }
+.module-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.module-link:hover .module {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.module {
+    transition: transform 0.2s ease;
+}
